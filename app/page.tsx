@@ -42,7 +42,7 @@ const translations = {
     heroTitle:
       "Zaprojektuj luksusową podróż w kilka minut, dopasowaną do Twojego stylu.",
     heroBody:
-      "WanderAI zamienia kierunek, budżet, tempo i pasje w dopracowany plan z butikowymi noclegami, wyrafinowaną kuchnią i lokalnymi perełkami.",
+      "Wandara zamienia kierunek, budżet, tempo i pasje w dopracowany plan z butikowymi noclegami, wyrafinowaną kuchnią i lokalnymi perełkami.",
     primaryCta: "Wygeneruj moją podróż",
     secondaryCta: "Zobacz przykładowe plany",
     stats: {
@@ -53,7 +53,7 @@ const translations = {
     plannerEyebrow: "Studio podróży",
     plannerTitle: "Zbuduj swój plan",
     plannerBody:
-      "Podaj podstawy, a WanderAI ułoży idealny plan na każdy dzień.",
+      "Podaj podstawy, a Wandara ułoży idealny plan na każdy dzień.",
     destinationLabel: "Cel podróży",
     destinationPlaceholder: "Tokio, Wybrzeże Amalfi, Patagonia...",
     budgetLabel: "Budżet",
@@ -123,7 +123,7 @@ const translations = {
     exportPdfButton: "Eksportuj PDF",
     deleteSavedTrip: "Usuń",
     reviewsEyebrow: "Opinie podróżników",
-    reviewsTitle: "Oceń WanderAI i pomóż nam dopracować doświadczenie.",
+    reviewsTitle: "Oceń Wandara i pomóż nam dopracować doświadczenie.",
     reviewsBody:
       "Twoja opinia zostaje wyłącznie w tej przeglądarce. Dodaj ocenę, opcjonalny komentarz i śledź lokalne statystyki społeczności.",
     reviewsKpis: {
@@ -139,7 +139,7 @@ const translations = {
     reviewValidation: "Wybierz ocenę od 1 do 5 gwiazdek.",
     reviewsEmptyTitle: "Brak opinii lokalnych",
     reviewsEmptyBody:
-      "Bądź pierwszą osobą, która oceni WanderAI w tej przeglądarce.",
+      "Bądź pierwszą osobą, która oceni Wandara w tej przeglądarce.",
     reviewCreatedLabel: "Dodano",
     deleteReview: "Usuń opinię",
     starRatingAria: (rating: number) => `Oceń ${rating} z 5 gwiazdek`,
@@ -174,7 +174,7 @@ const translations = {
       dining: "Kuchnia",
       stay: "Nocleg",
       missing: "Do uzupełnienia",
-      preparedBy: "Przygotowano przez WanderAI",
+      preparedBy: "Przygotowano przez Wandara",
     },
     sampleItineraries: [
       {
@@ -183,7 +183,7 @@ const translations = {
         days: "5 dni",
         budget: "$2,400",
         intro:
-          "Spokojna, dopracowana trasa przez świątynie, ogrody i prywatne ceremonie, która pokazuje jak WanderAI łączy rytm dnia z luksusowymi detalami.",
+          "Spokojna, dopracowana trasa przez świątynie, ogrody i prywatne ceremonie, która pokazuje jak Wandara łączy rytm dnia z luksusowymi detalami.",
         tripStyle: "Kulturowe zanurzenie premium",
         itinerary: [
           {
@@ -384,7 +384,7 @@ const translations = {
         ],
       },
     ],
-    footerText: "WanderAI planuje premium podróże dla ciekawych świata.",
+    footerText: "Wandara planuje premium podróże dla ciekawych świata.",
     footerLinks: ["Prywatność", "Regulamin", "Kontakt"],
   },
   en: {
@@ -400,7 +400,7 @@ const translations = {
     heroTitle:
       "Design a luxury trip in minutes, tailored to the way you travel.",
     heroBody:
-      "WanderAI turns your destination, budget, pace, and passions into a polished itinerary with boutique stays, refined dining, and hidden local experiences.",
+      "Wandara turns your destination, budget, pace, and passions into a polished itinerary with boutique stays, refined dining, and hidden local experiences.",
     primaryCta: "Generate my trip",
     secondaryCta: "View sample plans",
     stats: {
@@ -411,7 +411,7 @@ const translations = {
     plannerEyebrow: "Trip studio",
     plannerTitle: "Build your itinerary",
     plannerBody:
-      "Share the basics and WanderAI will shape the perfect daily plan.",
+      "Share the basics and Wandara will shape the perfect daily plan.",
     destinationLabel: "Destination",
     destinationPlaceholder: "Tokyo, Amalfi Coast, Patagonia...",
     budgetLabel: "Budget",
@@ -481,7 +481,7 @@ const translations = {
     exportPdfButton: "Export to PDF",
     deleteSavedTrip: "Delete",
     reviewsEyebrow: "Traveler feedback",
-    reviewsTitle: "Rate WanderAI and help refine the experience.",
+    reviewsTitle: "Rate Wandara and help refine the experience.",
     reviewsBody:
       "Your review stays only in this browser. Add a rating, optional comment, and watch the local feedback metrics update.",
     reviewsKpis: {
@@ -497,7 +497,7 @@ const translations = {
     reviewValidation: "Choose a rating from 1 to 5 stars.",
     reviewsEmptyTitle: "No local reviews yet",
     reviewsEmptyBody:
-      "Be the first person to rate WanderAI in this browser.",
+      "Be the first person to rate Wandara in this browser.",
     reviewCreatedLabel: "Added",
     deleteReview: "Delete review",
     starRatingAria: (rating: number) => `Rate ${rating} out of 5 stars`,
@@ -532,7 +532,7 @@ const translations = {
       dining: "Dining",
       stay: "Stay",
       missing: "To be confirmed",
-      preparedBy: "Prepared by WanderAI",
+      preparedBy: "Prepared by Wandara",
     },
     sampleItineraries: [
       {
@@ -541,7 +541,7 @@ const translations = {
         days: "5 days",
         budget: "$2,400",
         intro:
-          "A calm, polished route through temples, gardens, and private ceremonies that shows how WanderAI balances daily rhythm with luxury detail.",
+          "A calm, polished route through temples, gardens, and private ceremonies that shows how Wandara balances daily rhythm with luxury detail.",
         tripStyle: "Premium cultural immersion",
         itinerary: [
           {
@@ -734,7 +734,7 @@ const translations = {
         ],
       },
     ],
-    footerText: "WanderAI plans premium travel for curious people.",
+    footerText: "Wandara plans premium travel for curious people.",
     footerLinks: ["Privacy", "Terms", "Contact"],
   },
 } as const;
@@ -1127,8 +1127,8 @@ const initialForm: PlannerForm = {
 
 const languageSwapDelayMs = 120;
 const languageTransitionMs = 260;
-const savedTripsStorageKey = "wanderai.savedTrips";
-const reviewsStorageKey = "wanderai.reviews";
+const savedTripsStorageKey = "wandara.savedTrips";
+const reviewsStorageKey = "wandara.reviews";
 
 function getSavedTripId(itinerary: GeneratedItinerary) {
   return [
@@ -1256,7 +1256,7 @@ function getPdfFileName(destination: string) {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 
-  return `wanderai-${safeDestination || "trip"}.pdf`;
+  return `wandara-${safeDestination || "trip"}.pdf`;
 }
 
 function getUniqueItems(items: string[]) {
@@ -1388,7 +1388,7 @@ async function exportTripToPdf(trip: GeneratedItinerary, labels: PdfLabels) {
     setPdfFont("bold");
     doc.setFontSize(20);
     doc.setTextColor(15, 23, 42);
-    doc.text("WanderAI", margin, y);
+    doc.text("Wandara", margin, y);
 
     setPdfFont();
     doc.setFontSize(9);
@@ -1999,11 +1999,15 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl flex-col gap-16">
           <nav className="flex items-center justify-between rounded-full border border-white/10 bg-white/[0.06] px-4 py-3 shadow-2xl shadow-black/20 backdrop-blur-xl">
             <a href="#" className="flex items-center gap-3">
-              <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-cyan-300 via-sky-400 to-violet-500 text-sm font-black text-slate-950 shadow-lg shadow-cyan-500/20">
-                WA
-              </span>
+              <img
+                src="/icon.png"
+                alt=""
+                width={40}
+                height={40}
+                className="h-10 w-10 rounded-full shadow-lg shadow-cyan-500/20"
+              />
               <span className="text-lg font-semibold tracking-tight">
-                WanderAI
+                Wandara
               </span>
             </a>
             <div

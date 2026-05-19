@@ -230,7 +230,7 @@ export async function POST(request: Request) {
       model: "gpt-4o-mini",
       temperature: 0.7,
       max_output_tokens: 5000,
-      instructions: `You are WanderAI, a luxury travel concierge. Create practical, refined, detailed itineraries with boutique stays, memorable dining, private or small-group experiences, and a polished editorial tone. Write every generated itinerary field in ${responseLanguage}. Return only valid JSON that matches the requested schema.`,
+      instructions: `You are Wandara, a luxury travel concierge. Create practical, refined, detailed itineraries with boutique stays, memorable dining, private or small-group experiences, and a polished editorial tone. Write every generated itinerary field in ${responseLanguage}. Return only valid JSON that matches the requested schema.`,
       input: `Plan a ${days}-day luxury trip to ${destination}.
 Budget: ${budget}
 Travel style: ${style}
@@ -242,7 +242,7 @@ Make each day distinct and useful for a traveler. Include realistic pacing, prem
         format: {
           type: "json_schema",
           name: "luxury_travel_itinerary",
-          description: `A detailed luxury travel itinerary for WanderAI. All string fields must be written in ${responseLanguage}.`,
+          description: `A detailed luxury travel itinerary for Wandara. All string fields must be written in ${responseLanguage}.`,
           strict: true,
           schema: itinerarySchema,
         },

@@ -1,13 +1,13 @@
-# WanderAI
+# Wandara
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=nextdotjs)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-Powered-111827?style=for-the-badge&logo=openai)
 
-**WanderAI** is a premium dark luxury AI travel planner built for curated, high-end trip discovery. It combines a polished glassmorphism interface with OpenAI-powered itinerary generation, bilingual PL/EN experiences, saved trip workflows, reviews, KPIs, and client-side PDF exports with Polish character support.
+**Wandara** is a premium dark luxury AI travel planner built for curated, high-end trip discovery. It combines a polished glassmorphism interface with OpenAI-powered itinerary generation, bilingual PL/EN experiences, saved trip workflows, reviews, KPIs, and client-side PDF exports with Polish character support.
 
-Designed as a modern startup-style product, WanderAI turns destination ideas into elegant travel plans that can be previewed, saved, reopened, reviewed, and exported.
+Designed as a modern startup-style product, Wandara turns destination ideas into elegant travel plans that can be previewed, saved, reopened, reviewed, and exported.
 
 ## Highlights
 
@@ -27,7 +27,7 @@ Designed as a modern startup-style product, WanderAI turns destination ideas int
 > Add screenshots to `docs/screenshots/` and update the image paths below.
 
 <!--
-![WanderAI Hero](docs/screenshots/hero.png)
+![Wandara Hero](docs/screenshots/hero.png)
 ![AI Itinerary Results](docs/screenshots/itinerary-results.png)
 ![Saved Trips](docs/screenshots/saved-trips.png)
 ![Reviews and KPIs](docs/screenshots/reviews.png)
@@ -53,7 +53,7 @@ docs/screenshots/
 
 ## AI Integration
 
-WanderAI uses an App Router API route to generate travel itineraries with OpenAI. The client submits trip preferences, the server-side route calls the OpenAI SDK using `OPENAI_API_KEY`, and the UI renders the generated plan as premium itinerary cards.
+Wandara uses an App Router API route to generate travel itineraries with OpenAI. The client submits trip preferences, the server-side route calls the OpenAI SDK using `OPENAI_API_KEY`, and the UI renders the generated plan as premium itinerary cards.
 
 Create `.env.local` in the project root:
 
@@ -99,7 +99,7 @@ npm start
 
 ## Deployment
 
-WanderAI is ready to deploy on [Vercel](https://vercel.com/), the recommended platform for Next.js applications.
+Wandara is ready to deploy on [Vercel](https://vercel.com/), the recommended platform for Next.js applications.
 
 1. Import the repository into Vercel.
 2. Install dependencies with `npm install`.
@@ -110,7 +110,7 @@ Because saved trips and reviews currently use browser `localStorage`, user data 
 
 ## Data & Persistence
 
-WanderAI intentionally keeps persistence lightweight:
+Wandara intentionally keeps persistence lightweight:
 
 - Saved trips are stored in the user's browser through `localStorage`.
 - Reviews and rating KPIs are also stored locally.
